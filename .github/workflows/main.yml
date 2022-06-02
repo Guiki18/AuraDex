@@ -61,7 +61,7 @@ jobs:
         architecture: x64
     - run: flutter pub get
     - run: flutter test
-    - run: flutter build ios --release
+    - run: flutter build ios --release --no-codesign
 #    - uses: actions/upload-artifact@v1
 #      with:
 #        name: release-ios
@@ -128,7 +128,7 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: release-windows
-        path: build/windows/outputs/Flutter.exe
+        path: build/windows/outputs/auradex.exe
 
   flutter_macos_build:
     name: Flutter Build (macOS)
@@ -149,4 +149,4 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: release-macos
-        path: build/macos/Flutter.app
+        path: build/macos/Build/Products/Release/auradex.app
