@@ -11,7 +11,7 @@ jobs:
     name: Run Flutter Test and Analyze it
     runs-on: ubuntu-latest
     steps:
-      - uses: subosito/flutter-action@v2
+      - uses: subosito/flutter-action@v1
         with:
             channel: "stable"
       - uses: actions/setup-java@v2
