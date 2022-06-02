@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-java@v2
         with:
           java-version: "12.x"
+          distribution: 'zulu'
+
       - uses: subosito/flutter-action@v2
         with:
           channel: "stable"
@@ -32,6 +34,8 @@ jobs:
       - uses: actions/setup-java@v2
         with:
           java-version: "12.x"
+          distribution: 'zulu'
+
       - uses: subosito/flutter-action@v2
         with:
           channel: "stable"
@@ -48,6 +52,8 @@ jobs:
       - uses: actions/setup-java@v2
         with:
           java-version: "12.x"
+          distribution: 'zulu'
+
       - uses: subosito/flutter-action@v2
         with:
           channel: "stable"
@@ -65,6 +71,8 @@ jobs:
       - uses: actions/setup-java@v2
         with:
           java-version: "12.x"
+          distribution: 'zulu'
+
       - uses: subosito/flutter-action@v2
         with:
           channel: "stable"
@@ -81,6 +89,8 @@ jobs:
       - uses: actions/setup-java@v2
         with:
           java-version: "12.x"
+          distribution: 'zulu'
+
       - uses: subosito/flutter-action@v2
         with:
           channel: "stable"
@@ -98,6 +108,8 @@ jobs:
       - uses: actions/setup-java@v2
         with:
           java-version: "12.x"
+          distribution: 'zulu'
+
       - uses: subosito/flutter-action@v2
         with:
           channel: "stable"
@@ -116,6 +128,8 @@ jobs:
       - uses: actions/setup-java@v2
         with:
           java-version: "12.x"
+          distribution: 'zulu'
+
       - uses: subosito/flutter-action@v2
         with:
           channel: "stable"
